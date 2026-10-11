@@ -114,8 +114,10 @@ D_3B1E	dw ?	;inflated file buffer near
 ;----------------------------------------
 EXTRN patch_tandy:DWORD
 
-EXTRN D_7078:WORD	;graphic adapter?
-EXTRN pShapes:DWORD
+EXTRN D_7078_0U:WORD	;graphic adapter?	;link name, see title.h
+D_7078	EQU	D_7078_0U
+EXTRN PSHAPES_1U:DWORD	;link name, see title.h
+pShapes	EQU	PSHAPES_1U
 EXTRN pCharset:DWORD
 EXTRN txt_X:WORD
 EXTRN txt_Y:WORD

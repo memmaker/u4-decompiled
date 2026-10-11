@@ -8,7 +8,8 @@ EXTRN MSG_SYSERR:BYTE
 
 EXTRN speed_info:WORD
 
-EXTRN Party:BYTE
+EXTRN PARTY_HT:BYTE	;link name, see title.h
+Party	EQU	PARTY_HT
 
 EXTRN txt_X:WORD
 EXTRN txt_Y:WORD

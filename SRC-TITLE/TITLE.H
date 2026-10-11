@@ -75,6 +75,15 @@ struct t_500 {
 extern struct t_500 D_6976;
 
 /*====---- c_common ----====*/
+/* Communals (COMDEF, defined in var.c), laid out by MS LINK in its symbol-hash order;
+   these link names reproduce the original layout (tools/namefit.py, tools/comdef.py). */
+#ifndef WIN32
+#define Party          PARTY_HT
+#define D_7078         D_7078_0U
+#define pShapes        PSHAPES_1U
+#define D_7082         D_7082_EZ
+#define pTitle         PTITLE_0S
+#endif
 extern unsigned /*D_6E80*/D_6E80;
 
 

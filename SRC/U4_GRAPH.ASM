@@ -11,10 +11,13 @@ EXTRN _dclose:NEAR
 
 EXTRN C_A842:NEAR	;drawLine
 
-EXTRN D_943A:WORD
-EXTRN pShapes:DWORD
+EXTRN D_943A_J:WORD	;link name, see u4.h
+D_943A	EQU	D_943A_J
+EXTRN PSHAPES_AC:DWORD	;link name, see u4.h
+pShapes	EQU	PSHAPES_AC
 EXTRN pCharset:DWORD
-EXTRN txt_X:WORD
+EXTRN TXT_X_T:WORD	;link name, see u4.h
+txt_X	EQU	TXT_X_T
 EXTRN txt_Y:WORD
 
 DGROUP	GROUP _DATA,_BSS

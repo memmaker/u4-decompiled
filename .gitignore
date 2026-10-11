@@ -1,0 +1,6 @@
+# local only: shipped game files, unpacked originals, downloaded toolchains, build output
+gog/
+orig/
+toolchain/
+build/
+tools/__pycache__/

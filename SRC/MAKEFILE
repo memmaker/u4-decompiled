@@ -57,11 +57,8 @@ u4_main.exe: $(OBJS)
 	del tmp.exe
 
 
-#u4_var.obj: u4_var.c
-#	msc $(CFLAGS) /J u4_var;
-
-u4_var.obj: u4_var.asm
-	$(ASM) u4_var;
+u4_var.obj: u4_var.c
+	msc $(CFLAGS) u4_var;
 
 errmsg.obj: errmsg.c
 	msc $(CFLAGS)    errmsg;

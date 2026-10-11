@@ -8,9 +8,11 @@ EXTRN MSG_SYSERR:BYTE
 
 EXTRN speed_info:WORD
 
-EXTRN Party:BYTE
+EXTRN PARTY_V:BYTE	;link name, see u4.h
+Party	EQU	PARTY_V
 
-EXTRN txt_X:WORD
+EXTRN TXT_X_T:WORD	;link name, see u4.h
+txt_X	EQU	TXT_X_T
 EXTRN txt_Y:WORD
 
 PUBLIC cursor_rate

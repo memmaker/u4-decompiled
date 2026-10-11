@@ -19,7 +19,7 @@ MSC %CFLAGS% title_0; >> log.txt
 %AS% /Mx LOW; >> log.txt
 MSC %CFLAGS% title_1; >> log.txt
 %AS% /Mx UTIL2; >> log.txt
-%AS% /Mx VAR; >> log.txt
+MSC %CFLAGS% var; >> log.txt
 
 REM MSC %CFLAGS% data; >> log.txt
 REM MSC %CFLAGS% errmsg; >> log.txt

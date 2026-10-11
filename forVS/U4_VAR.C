@@ -34,7 +34,7 @@ unsigned char /*D_959E*/tile_east;
 /*dummy*/unsigned char __959F;
 void far /*D_95A0*/*pCharset;
 char /*D_95A4*/spell_sta;
-struct aStruct D_95A5;
+struct aStruct3 D_95A5;
 /*dummy*/unsigned char __95A7;
 int /*D_95A8*/txt_X;
 unsigned char /*D_95AA*/tile_north;
